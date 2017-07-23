@@ -60,7 +60,7 @@ header {
 }
 
 .main-content {
-	padding: 20px;
+	padding: 22px;
 }
 
 .about-main {
@@ -71,7 +71,8 @@ header {
 
 .about-header {
 	height: 104px;
-	padding-top: 20px;
+	padding-top: 22px;
+	margin-bottom: 10px;
 	border-bottom: solid #dddddd 5px;
 	color: #4aaaad;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -93,8 +94,8 @@ header {
 }
 
 aside {
-	margin-top: 20px;
-	padding: 20px;
+	margin-top: 22px;
+	padding: 22px;
 	height: 200px;
 	background: #ffffff;
 	border: solid #cccccc 1px;
@@ -102,20 +103,66 @@ aside {
 
 .aside-header {
 	font-size: 1.5em;
-	padding-bottom: 20px;
+	padding-bottom: 22px;
 	border-bottom: solid #dddddd 2px;
 	font-family: 'Georgia', Times, Times New Roman, serif;;
 	color: #4aaaad;
 }
 
 .aside-nav {
-	padding-top: 20px;
+	padding-top: 22px;
 }
 
 .aside-img {
 	width: 63px;
 	height: 63px;
 	margin-right: 13px;
+}
+
+.form-input {
+	height: 35px;
+	width: 100%;
+	padding-left: 10px;
+	margin-bottom: 11px;
+}
+
+textarea {
+	height: 200px;
+	width: 100%;
+}
+
+.submit {
+	background: #4aaaad;
+	color: #ffffff;
+	border: none;
+	width: 120px;
+	height: 42px;
+	margin-top: 11px;
+	font-size: 1.25em;
+}
+
+.portfolio-img-div {
+	width: 100%;
+	margin-bottom: 62px;
+}
+
+.portfolio-img-div:last-child {
+	margin-bottom: 32px;
+}
+
+.portfolio-img {
+	width: 100%;
+}
+
+.portfolio-img-title {
+	height: 60px;
+	background: #4aaaad;
+	color: #ffffff;
+	text-align: center;
+	padding: 11px;
+	position: relative;
+	margin-top: -88px;
+	font-size: 1.75em;
 }
 
 footer {
@@ -126,3 +173,4 @@ footer {
 	color: #ffffff;
 	padding-top: 22px;
 }
+

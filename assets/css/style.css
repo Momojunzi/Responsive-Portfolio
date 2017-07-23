@@ -1,0 +1,128 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	
+	background-image: url("../images/topography.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #777777;
+}
+
+a:hover {
+	color: #59E8E1;
+}
+
+header {
+	border: solid  #cccccc 1px;
+}
+
+.name-div {
+	background: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	height: 90px;
+	padding-top: 22px;
+	font-family: 'Georgia', Times, Times New Roman, serif;; 
+}
+
+.header-nav {
+	background: #ffffff;
+	text-align: center;
+	height: 65px;
+	padding: 22px 0 22px 0;
+	display: flex;
+	flex-direction: row;
+}
+
+.header-link {
+	border-right: solid #cccccc 1px;
+	width: 33.3%;
+}
+
+.header-link:last-child {
+	border-right: none;
+}
+
+.main-content {
+	padding: 20px;
+}
+
+.about-main {
+	padding: 32px;
+	background: #ffffff;
+	border: solid #dddddd 1px;
+}
+
+.about-header {
+	height: 104px;
+	padding-top: 20px;
+	border-bottom: solid #dddddd 5px;
+	color: #4aaaad;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 2em;
+}
+
+.about-content {
+	padding-top: 32px;
+	line-height: 32px;
+}
+
+.about-img-div {
+	margin: 0 auto 22px auto;
+}
+
+.about-img {
+	max-width: 100%;
+	min-width: 100%;
+}
+
+aside {
+	margin-top: 20px;
+	padding: 20px;
+	height: 200px;
+	background: #ffffff;
+	border: solid #cccccc 1px;
+}
+
+.aside-header {
+	font-size: 1.5em;
+	padding-bottom: 20px;
+	border-bottom: solid #dddddd 2px;
+	font-family: 'Georgia', Times, Times New Roman, serif;;
+	color: #4aaaad;
+}
+
+.aside-nav {
+	padding-top: 20px;
+}
+
+.aside-img {
+	width: 63px;
+	height: 63px;
+	margin-right: 13px;
+}
+
+footer {
+	height: 90px;
+	border-top: solid #4aaaad 8px;
+	background: #666666;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 22px;
+}

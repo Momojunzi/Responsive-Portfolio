@@ -29,6 +29,7 @@ a:hover {
 }
 
 header {
+	background: #ffffff;
 	border: solid  #cccccc 1px;
 }
 
@@ -114,9 +115,9 @@ aside {
 }
 
 .aside-img {
-	width: 63px;
-	height: 63px;
-	margin-right: 13px;
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
 }
 
 .form-input {
@@ -202,5 +203,46 @@ footer {
 	
 	.portfolio-img-div {
 		width: 47%;
+	}
+}
+
+@media only screen and (min-width: 986px) {
+	.header-container {
+		width: 960px;
+		margin: 0 auto 0 auto;
+	}
+
+	.name-div {
+		margin-left: 120px;
+	}
+
+	.header-nav {
+		margin-right: 100px;
+	}
+
+	.main-content {
+		display: flex;
+		flex-flow: row;
+		width: 960px;
+		justify-content: space-between;
+		margin: 0 auto 0 auto;
+		padding: 32px 0 32px 0;
+		
+	} 
+
+	.about-main {
+		width: 410px;
+		margin-left:  120px;
+		margin-right: 20px;
+
+	}
+
+	aside {
+		width: 265px;
+		margin: 0 120px 0 20px;
+	}
+
+	.portfolio-img-div {
+		width: 350px;
 	}
 }

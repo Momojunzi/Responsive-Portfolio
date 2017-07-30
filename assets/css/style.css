@@ -253,252 +253,247 @@ footer {
 
 @media screen and (min-width: 987px) {
 	* {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-}
-
-html, body {
-	height: 100%;
-}
-
-body {
-	
-	background-image: url("../images/topography.png");
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
-}
-
-a {
-	color: #777777;
-}
-
-a:visited {
-	color: #777777;
-}
-
-a:hover {
-	color: #59E8E1;
-}
-
-.container {
-	
-	margin: 0 auto 0 auto;
-}
-
-header {
-	border-bottom: solid #cccccc 1px;
-	height: 90px;
-	margin: 0 auto 0 auto;
-	background: #ffffff;
-}
-
-.header-container {
-	width: 1350px;
-	margin:0 auto 0 auto;
-}
-
-.name-div {
-	margin-left: 152px;
-	height: 90px;
-	float: left;
-	background: #4aaaa5;
-	color: white;
-	padding: 22px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-.header-nav {
-	float: right;
-	height: 90px;
-	text-align: center;
-	padding-top: 40px;
-	margin-right: 240px;
-}
-
-.header-link {
-	text-decoration: none;
-	padding-left: 20px;
-	padding-right: 20px;
-	border-right: solid #dddddd 1px;
-}
-
-.header-link:last-child {
-	border-right: none;
-}
-
-.main-content {
-	
-	width: 1350px;
-	margin: 0 auto 0 auto;
-	min-height: 100%;
-	margin-bottom: -90px;
-}
-
-.main-about {
-	height: calc(100% - 90px);
-}
-
-.about-main {
-	width: 650px;
-	float: left;
-	margin-left: 152px;
-	margin-top: 40px;
-	background: #fff;
-	padding: 30px;
-	border: solid #dddddd 1px;
-}
-
-.about-header {
-	font-size: 2em;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
-	border-bottom: solid #dddddd 2px;
-	padding-bottom: 22px;
-}
-
-.about-content {
-	padding-top: 22px;
-}
-
-.about-img-div {
-	width: 183px;
-	float: left;
-	margin-right: 22px;
-}
-
-.about-img {
-	max-width: 100%;
-}
-
-.about-text {
-	
-	font-size: 1.25em;
-}
-
-aside {
-	width: 270px;
-	height: 196px;
-	background: #ffffff;
-	padding: 30px;
-	float: right;
-	margin-right: 240px;
-	margin-top: 40px;
-	border: solid #dddddd 1px;
-}
-
-.aside-header {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	border-bottom: solid #dddddd 1px;
-	padding-bottom: 22px;
-	color: #4aaaa5;
-}
-
-.aside-nav {
-	padding-top: 22px;
-}
-
-.aside-img {
-	width: 60px;
-	height: 60px;
-	margin-right: 5px;
-}
-
-.aside-img: last-child {
-	margin-right: 0;
-}
-
-.form-input {
-	width: 100%;
-	height: 36px;
-	margin-bottom: 22px;
-	margin-top: 10px;
-	padding-left: 10px;
-}
-
-textarea {
-	width: 100%;
-	height: 200px;
-	margin-bottom: 22px;
-	margin-top: 10px;
-}
-
-.submit {
-	width: 117px;
-	height: 40px;
-	background: #4aaaa5;
-	border: none;
-	color: #ffffff;
-	font-size: 1.25em;
-}
-
-.portfolio-img-div {
-	width:265px;
-	height: 200px;
-	margin-top: 22px;
-	margin-bottom: 30px;
-}
-
-.portfolio-img {
-	width: 100%;
-	height:100%;
-}
-
-.left {
-	float: left;
-}
-
-.right {
-	float: right;
-}
-
-.portfolio-img-title {
-	position: relative;
-	width: 265px;
-	height: 59px;
-	color: #ffffff;
-	background: #4aaaa5;
-	text-align: center;
-	padding: 15px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-weight: lighter;
-	bottom: 70px;
-}
-
-.clear {
-	position: relative;
-	clear: both;
-	height: 60px;
-}
-
-.main-content:after {
-	content: "";
-	display: block;
-}
-
-footer, .main-content:after {
-	height: 90px;
-}
-
-footer { 
-	display: inline-block;
-	width: 100%;
-	margin: 0 auto 0 auto;
-	background: #666666;
-	padding: 30px;
-	text-align: center;
-	border-top: solid #4aaaa5 8px;
-    color: #dddddd;
-}
-
-@media only screen and (max-width: 1351px) {
-	.header-footer-fix {
-		width: 1350px;
+		box-sizing: border-box;
+		padding: 0;
+		margin: 0;
 	}
-}
 
+	html, body {
+		height: 100%;
+	}
 
+	body {
+		
+		background-image: url("../images/topography.png");
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		color: #777777;
+	}
 
+	a {
+		color: #777777;
+	}
 
+	a:visited {
+		color: #777777;
+	}
 
+	a:hover {
+		color: #59E8E1;
+	}
+
+	.container {
+		
+		margin: 0 auto 0 auto;
+	}
+
+	header {
+		border-bottom: solid #cccccc 1px;
+		height: 90px;
+		margin: 0 auto 0 auto;
+		background: #ffffff;
+	}
+
+	.header-container {
+		width: 1350px;
+		margin:0 auto 0 auto;
+	}
+
+	.name-div {
+		margin-left: 152px;
+		height: 90px;
+		float: left;
+		background: #4aaaa5;
+		color: white;
+		padding: 22px;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+	}
+
+	.header-nav {
+		float: right;
+		height: 90px;
+		text-align: center;
+		padding-top: 40px;
+		margin-right: 240px;
+	}
+
+	.header-link {
+		text-decoration: none;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-right: solid #dddddd 1px;
+	}
+
+	.header-link:last-child {
+		border-right: none;
+	}
+
+	.main-content {
+		
+		width: 1350px;
+		margin: 0 auto 0 auto;
+		min-height: 100%;
+		margin-bottom: -90px;
+	}
+
+	.main-about {
+		height: calc(100% - 90px);
+	}
+
+	.about-main {
+		width: 650px;
+		float: left;
+		margin-left: 152px;
+		margin-top: 40px;
+		background: #fff;
+		padding: 30px;
+		border: solid #dddddd 1px;
+	}
+
+	.about-header {
+		font-size: 2em;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		color: #4aaaa5;
+		border-bottom: solid #dddddd 2px;
+		padding-bottom: 22px;
+	}
+
+	.about-content {
+		padding-top: 22px;
+	}
+
+	.about-img-div {
+		width: 183px;
+		float: left;
+		margin-right: 22px;
+	}
+
+	.about-img {
+		max-width: 100%;
+	}
+
+	.about-text {
+		
+		font-size: 1.25em;
+	}
+
+	aside {
+		width: 270px;
+		height: 196px;
+		background: #ffffff;
+		padding: 30px;
+		float: right;
+		margin-right: 240px;
+		margin-top: 40px;
+		border: solid #dddddd 1px;
+	}
+
+	.aside-header {
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		border-bottom: solid #dddddd 1px;
+		padding-bottom: 22px;
+		color: #4aaaa5;
+	}
+
+	.aside-nav {
+		padding-top: 22px;
+	}
+
+	.aside-img {
+		width: 60px;
+		height: 60px;
+		margin-right: 5px;
+	}
+
+	.aside-img: last-child {
+		margin-right: 0;
+	}
+
+	.form-input {
+		width: 100%;
+		height: 36px;
+		margin-bottom: 22px;
+		margin-top: 10px;
+		padding-left: 10px;
+	}
+
+	textarea {
+		width: 100%;
+		height: 200px;
+		margin-bottom: 22px;
+		margin-top: 10px;
+	}
+
+	.submit {
+		width: 117px;
+		height: 40px;
+		background: #4aaaa5;
+		border: none;
+		color: #ffffff;
+		font-size: 1.25em;
+	}
+
+	.portfolio-img-div {
+		width:265px;
+		height: 200px;
+		margin-top: 22px;
+		margin-bottom: 30px;
+	}
+
+	.portfolio-img {
+		width: 100%;
+		height:100%;
+	}
+
+	.left {
+		float: left;
+	}
+
+	.right {
+		float: right;
+	}
+
+	.portfolio-img-title {
+		position: relative;
+		width: 265px;
+		height: 59px;
+		color: #ffffff;
+		background: #4aaaa5;
+		text-align: center;
+		padding: 15px;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		font-weight: lighter;
+		bottom: 70px;
+	}
+
+	.clear {
+		position: relative;
+		clear: both;
+		height: 60px;
+	}
+
+	.main-content:after {
+		content: "";
+		display: block;
+	}
+
+	footer, .main-content:after {
+		height: 90px;
+	}
+
+	footer { 
+		display: inline-block;
+		width: 100%;
+		margin: 120px auto 0 auto;
+		background: #666666;
+		padding: 30px;
+		text-align: center;
+		border-top: solid #4aaaa5 8px;
+	    color: #dddddd;
+	}
+
+	@media only screen and (max-width: 1351px) {
+		.header-footer-fix {
+			width: 1350px;
+		}
+	}
 }
